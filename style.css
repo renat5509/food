@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px;
+    
+}
+main{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: rgb(213, 236, 186);
+}
+.user-data{
+    display: flex;
+    flex-direction: column;
+}
+.img-logo{
+    width: 100px;
+    scale: 200%;
+}
+.food-table{
+    border: solid 1px grey;
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(213, 236, 186);
+    padding: 30px;
+}
+button{
+    border: none;
+    transition: 1s ease;
+}
+button:hover{
+    background-color: #e1ff00;
+}
